@@ -12,14 +12,14 @@ const Feature2 = () => {
         lg:items-center lg:gap-x-[30px]"
         >
           <div className="flex-1 order-2 lg:order-1" data-aos="fade-right" data-aos-offset="300">
-            <img src={image} alt="Feature 2 image" />
+            <img src={image} alt="Feature 2" />
           </div>
           <div className="flex-1 order-1 lg:order-2" data-aos="fade-left" data-aos-offset="400">
             <div className="pretitle">{pretitle}</div>
             <h2 className="title">{title}</h2>
             <p className="lead">{subtitle}</p>
             <button className="btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all">
-              {btnLink} <img src={btnIcon} alt="Button Icon" />
+              {btnLink} <img src={btnIcon} alt="Button" />
             </button>
           </div>
         </div>
