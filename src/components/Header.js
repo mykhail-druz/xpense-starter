@@ -44,13 +44,15 @@ const Header = () => {
           <Nav />
         </div>
         {/* {cta button - initially hidden - show on desktop} */}
-        <button
+        <a
+          href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+          target='_blank'
           className="btn btn-sm btn-outline hidden lg:flex"
           data-aos="fade-down"
           data-aos-delay="1400"
         >
           {btnText}
-        </button>
+        </a>
         {/* {mobile nav} */}
         <button
           className="lg:hidden" onClick={() => setMobileNav(!mobileNav)}

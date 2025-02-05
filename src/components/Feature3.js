@@ -15,12 +15,14 @@ const Feature3 = () => {
             <div className="pretitle">{pretitle}</div>
             <h2 className="title">{title}</h2>
             <p className="lead">{subtitle}</p>
-            <button className="btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all">
+            <a
+                href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+                target='_blank'  className="btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all">
               {btnLink} <img src={btnIcon} alt="Button Icon" />
-            </button>
+            </a>
           </div>
           <div className="flex-1" data-aos="fade-left" data-aos-offset="300">
-            <img src={image} alt="Feature 1 image" />
+            <img src={image} alt="Feature 1" />
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import Cards from './Cards';
 const Product = () => {
   const { title, subtitle } = product;
   return (
-    <section className='section'>
+    <section id="about" className='section'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center lg:flex-row mb-10 lg:mb-20'>
           <h2

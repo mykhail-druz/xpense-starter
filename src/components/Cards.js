@@ -15,7 +15,7 @@ const Cards = () => {
               key={cardIndex}
               data-aos="zoom-out"
               data-aos-offset="300"
-              data-aos-delay="delay"
+              data-aos-delay={delay}
             >
               <div
                 onClick={() => setIndex(cardIndex)}

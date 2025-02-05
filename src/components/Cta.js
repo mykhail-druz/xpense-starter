@@ -31,13 +31,15 @@ const Cta = () => {
             data-aos="zoom-out-right"
             data-aos-delay="700"
           />
-          <button
-            className="btn btn-md btn-white mt-[40px] lg:text-[22px] gap-x-[10px] mx-auto"
+          <a
+              href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+              target='_blank'
+              className="btn btn-md btn-white mt-[40px] lg:text-[22px] gap-x-[10px] mx-auto"
             data-aos="fade-up"
             data-aos-delay="400"
           >
             {btnText} <HiOutlineChevronDown />
-          </button>
+          </a>
           <img
             className="hidden xl:flex"
             src={img2}

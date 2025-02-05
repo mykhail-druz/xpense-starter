@@ -5,7 +5,7 @@ import { HiCheck, HiOutlineArrowNarrowRight } from "react-icons/hi";
 const Pricing = () => {
   const [index, setIndex] = useState(1);
   const { title, cards } = pricing;
-  return <section className="section">
+  return <section id="pricing" className="section">
     <div className="container mx-auto">
       <h2 
       className="h2 mb-10 lg:mb-20 text-center"
@@ -49,10 +49,13 @@ const Pricing = () => {
                 </div>
                 <div className="text-base text-light">{userAmount}</div>
               </div>
-              <button className={`${cardIndex === index ? 'bg-accent hover:bg-accentHover text-white' : 'border border-accent text-accent'} btn btn-sm space-x-[14px]`}>
+              <a
+                  href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+                  target='_blank'
+                  className={`${cardIndex === index ? 'bg-accent hover:bg-accentHover text-white' : 'border border-accent text-accent'} btn btn-sm space-x-[14px]`}>
                 <span>{btnText}</span>
                 <HiOutlineArrowNarrowRight />
-              </button>
+              </a>
             </div>
           </div>
         })}

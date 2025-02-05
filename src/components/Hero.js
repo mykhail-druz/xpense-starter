@@ -41,14 +41,16 @@ const Hero = () => {
               data-aos='fade-down'
               data-aos-delay='700'
             >
-              <button
+              <a
+                href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+                target='_blank'
                 className="btn btn-md lg:btn-lg btn-accent
                 flex justify-center
                 items-center lg:gap-x-4"
               >
                 {btnText}
                 <HiOutlineChevronDown />
-              </button>
+              </a>
               <span className="text-light lg:lead lg:mb-0">
                 {compText}
                 </span>
