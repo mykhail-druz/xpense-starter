@@ -9,7 +9,7 @@ const Brands = () => {
         {brands.map((item, index) => {
           const { image, delay } = item;
           return <div key={index} data-aos="fade-up" data-aos-delay={delay}>
-            <img src={image} alt="brands" />
+            <img src={image} alt="Brands" />
           </div>;
         })}
       </div>

@@ -18,9 +18,11 @@ const Feature2 = () => {
             <div className="pretitle">{pretitle}</div>
             <h2 className="title">{title}</h2>
             <p className="lead">{subtitle}</p>
-            <button className="btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all">
-              {btnLink} <img src={btnIcon} alt="Button" />
-            </button>
+            <a
+              href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+              target='_blank'  className="btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all">
+              {btnLink} <img src={btnIcon} alt="Button Icon" />
+            </a>
           </div>
         </div>
       </div>
